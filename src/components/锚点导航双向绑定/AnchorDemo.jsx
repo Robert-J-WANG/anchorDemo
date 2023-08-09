@@ -51,7 +51,6 @@ export default function AnchorDemo () {
     e.preventDefault()
     const anchorElement = document.getElementById(item.key)
     if (anchorElement) {
-      const offsetTop = anchorElement.getBoundingClientRect().top
       anchorElement.scrollIntoView({ behavior: 'smooth', block: 'start' }) // 平滑滚动到锚点位置
 
       // 构建新的URL路径，用于导航
