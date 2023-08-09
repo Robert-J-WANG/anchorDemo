@@ -1,15 +1,10 @@
-import './App.css'
-import A from './components/A'
-import B from './components/B'
+import React from 'react'
+import AnchorDemo from './components/锚点导航双向绑定/AnchorDemo'
 
-function App () {
+export default function App () {
   return (
     <div>
-      <A />
-      <hr />
-      <hr />
-      {/* <B /> */}
+      <AnchorDemo />
     </div>
   )
 }
-export default App

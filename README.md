@@ -1,8 +1,5 @@
-# React + Vite
+### React 中使用 Anchor 锚点跳转与滚动区域的双向绑定
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### 1. 点击的锚点链接，跳转到整对应的页面， 同时修改 URL 路径（移出#号）
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### 2. 滚动页面区域，更改相应锚点的样式， 同时修改 URL 路径（没有#号）
