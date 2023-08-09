@@ -47,6 +47,7 @@ export default function AnchorDemo () {
     }
   }
 
+  // 重新a连接点击跳转方法，调用scrollIntoView API,实现对应页面的跳转
   const handleClick = item => e => {
     e.preventDefault()
     const anchorElement = document.getElementById(item.key)
